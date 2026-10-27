@@ -1,0 +1,30 @@
+## Visual Studio / .NET gitignore
+*.user
+*.userosscache
+*.sln.docstates
+.vs/
+[Bb]in/
+[Oo]bj/
+[Ll]og/
+[Ll]ogs/
+*.suo
+*.userpreferences
+
+# Build results
+[Dd]ebug/
+[Rr]elease/
+x64/
+x86/
+build/
+*.appx
+*.msix
+
+# Credentials & secrets (never commit)
+*.key
+*.token
+*.secret
+credentials.json
+appsettings.Development.json
+appsettings.Local.json
+.env
+.env.*
